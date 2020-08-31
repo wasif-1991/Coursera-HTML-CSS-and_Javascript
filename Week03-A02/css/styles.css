@@ -1,0 +1,98 @@
+body {
+  font-size: 15px;
+  font-family: "Georgia", sans-serif;
+  color: #000000;
+  background-color: #fff;
+}
+
+/** Header **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-nav button {
+  margin-top: 23px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #ffffff;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+  line-height: 76px;
+  height: 76px;
+  padding-top: 0;
+}
+
+.navbar-brand h1 {
+  color: #000000;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #ff5252;
+}
+
+#nav-list {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+#nav-list a {
+  font-weight: bolder;
+  color: #282828;
+  font-size: 1.2em;
+  border: 1px solid #000000;
+}
+
+#nav-list a:hover {
+  color: #171717;
+  background-color: #999999;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+/** End of Header **/
+
+/** Home Page **/
+#main-content {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+#main-content h2 {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#main-content h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#chicken-title, #beef-title, #sushi-title {
+  width: 100%;
+  padding: 20px;
+  background-color: #999999;
+  margin-bottom: 55px;
+  box-shadow: 0 0 80px #8e8e8e;
+}
+
+#top-heading {
+  color: #ffffff;
+}
+
+/** End of Home Page**/
